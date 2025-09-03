@@ -10,7 +10,7 @@ class ProductController extends GetxController {
   var searchQuery = "".obs;
   var selectedCategory = "All".obs;
 
-  final categories = ["All", "men's clothing", "jewelery", "electronics", "women's clothing", "fjallraven backpack"];
+  final categories = ["All", "men's clothing", "jewelery", "electronics", "women's clothing"];
 
   @override
   void onInit() {
