@@ -1,4 +1,3 @@
-// widgets/skeleton_loader_grid.dart
 import 'package:flutter/material.dart';
 
 class SkeletonLoaderGrid extends StatelessWidget {

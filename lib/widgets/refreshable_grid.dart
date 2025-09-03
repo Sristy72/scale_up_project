@@ -1,4 +1,3 @@
-// widgets/refreshable_grid.dart
 import 'package:flutter/material.dart';
 
 class RefreshableGrid extends StatelessWidget {
