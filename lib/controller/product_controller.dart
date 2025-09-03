@@ -11,7 +11,7 @@ class ProductController extends GetxController {
   var searchQuery = "".obs;
   var selectedCategory = "All".obs;
 
-  final categories = ["All", "men's clothing", "jewelery", "electronics", "women's clothing"];
+  final categories = ["All", "men's clothing", "jewelery", "electronics", "women's clothing", "fjallraven backpack"];
 
   @override
   void onInit() {
@@ -44,8 +44,8 @@ class ProductController extends GetxController {
     filteredProducts.assignAll(results);
   }
 
-  void setSearch(String query) {
-    searchQuery.value = query;
+  void setSearch(String searchText) {
+    searchQuery.value = searchText;
     filterProducts();
   }
 

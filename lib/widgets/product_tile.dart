@@ -19,7 +19,7 @@ class ProductTile extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: Text(product.title, maxLines: 2, overflow: TextOverflow.ellipsis),
           ),
-          Text("\$${product.price}", style: const TextStyle(fontWeight: FontWeight.bold)),
+          Text("Price: \$${product.price}", style: const TextStyle(fontWeight: FontWeight.bold)),
         ],
       ),
     );
